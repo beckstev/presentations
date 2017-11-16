@@ -1,0 +1,40 @@
+\documentclass[aspectratio=1610]{beamer}
+\usefonttheme{professionalfonts}
+\usetheme{metropolis}
+\usepackage{polyglossia}
+\setmainlanguage{german}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\usepackage[
+  math-style=ISO,
+  bold-style=ISO,
+  sans-style=italic,
+  nabla=upright,
+]{unicode-math}
+\setmathfont{Latin Modern Math}
+\usepackage{blindtext}
+\usepackage{fontspec}
+\title{Photonic Crystal's}
+\subtitle{virus detection}
+\date{\today}
+\author{Steven Becker}
+\usepackage{siunitx}
+\AtBeginDocument{
+\sisetup{
+math-rm=\mathrm,
+math-micro=μ,
+}
+}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\usepackage{framed}
+\usepackage{biblatex}
+\addbibresource{lit.bib}
+\usepackage{booktabs}
