@@ -3,7 +3,7 @@ all: build/presentation.pdf
 build/presentation.pdf: presentation.tex header.tex| build
 		lualatex --output-directory=build presentation.tex
 
-full: presentation.tex header.tex theorie| build
+full: presentation.tex header.tex | build
 		lualatex --output-directory=build presentation.tex
 		biber build/presentation.bcf
 		lualatex --output-directory=build presentation.tex
