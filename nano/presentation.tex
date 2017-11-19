@@ -5,19 +5,15 @@
 %https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3937800/
 \frame{\maketitle}
 
-\begin{frame}
-  Bob is ill.
-\end{frame}
 
 \begin{frame}{Overview}
 \begin{itemize}
   \setlength\itemsep{1.2em}
   \item{Virus detection in generell}
   \item{Photonic crystal}
-  \item{2D-PhCs}
-  \item{virus detection in generell}
-  \item{How does the detection work?}
+  \item{Biosensing with 2D-PhCs}
 \end{itemize}
+
 \end{frame}
 
 \begin{frame}{Virus detection in generell}
@@ -69,7 +65,7 @@
     \begin{column}{0.49\textwidth}
     \begin{itemize}
       \setlength\itemsep{1.2em}
-      \item{ characterized by their band structure ( c. \ref{fig: band_structure}) }
+      \item{ characterized by their band structure ( c. fig. \ref{fig: band_structure}) }
     \end{itemize}
     \begin{equation*}
       \lambda=\frac{2\pi c}{\omega}\qquad \omega =2\pi f
@@ -80,17 +76,72 @@
 
 \end{frame}
 
-\begin{frame}{2D-PhCs}
+\begin{frame}{Biosensing with 2D-PhCs}
+
+  \begin{columns}
+
+    \begin{column}{0.49\textwidth}
+    \begin{itemize}
+      \setlength\itemsep{1.2em}
+      \item{\emph{only structure} - no wavelength is transmitted }
+      \item{\emph{structure + point defect} - only one wavelength is transmitted (result of the point defect)}
+      \item{\emph{structure + point + waveguide} - only one wavelength is absorbed (c. fig. \ref{fig: 2d_photonic_crystal} )}
+    \end{itemize}
+    \end{column}
+
+    \begin{column}{0.49\textwidth}
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.8\textwidth]{./bilder/2dphc_waveguide_point_defect.png}
+      \caption{2D photonic crystal with a punctually defect and a waveguide. \cite{nano}.}
+      \label{fig: 2d_photonic_crystal}
+    \end{figure}
+  \end{column}
+
+  \end{columns}
 
 \end{frame}
 
-\begin{frame}{How does the detection work?}
+\begin{frame}{Biosensing with 2D-PhCs}
+  \begin{columns}
+
+  \begin{column}{0.49\textwidth}
+    \begin{itemize}
+    \setlength\itemsep{1.2em}
+    \item{ surface modification gives the option to detect a spezific biological particle}
+    \item{ \emph{modification} - first oxidation and silanization, second spezific biotin}
+    \item { a redshift is observable - result of the Raman-scatterings}
+    \item{ multiplexing increases the spectrum of detection}
+  \end{itemize}
+  \end{column}
+
+  \begin{column}{0.49\textwidth}
+  \begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{./bilder/redshift_example.png}
+    \caption{Example for a redshift afer surface modification. Using a biotin also increase the redshift \cite{nano}.}
+    \label{fig: redshift}
+  \end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}{Biosensing with 2D-PhCs}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{./bilder/reflektion.png}
+    \caption{Surface modification of a PhC allow a virurs detection. \cite{nano}.}
+    \label{fig: virus detection}
+  \end{figure}
 
 \end{frame}
 
-\begin{frame}{Potential}
+\begin{frame}{SumUp}
   \begin{itemize}
-    \item { mobile diagnostic tool}
+    \setlength\itemsep{1.2em}
+    \item{Photonic crystals have band gabs}
+    \item{waveguides and point defects effect the behavior of PhC}
+    \item{bionsenssing works by measuering the redshift of the sample }
+    \item{biotin can increase the sensiivity}
   \end{itemize}
 \end{frame}
 
