@@ -1,12 +1,12 @@
 all: build/presentation.pdf
 
-build/presentation.pdf: presentation_short.tex header.tex| build
-		lualatex --output-directory=build presentation_short.tex
+build/presentation.pdf: presentation_long.tex header.tex| build
+		lualatex --output-directory=build presentation_long.tex
 
-full: presentation_short.tex header.tex | build
-		lualatex --output-directory=build presentation_short.tex
-		biber build/presentation_short.bcf
-		lualatex --output-directory=build presentation_short.tex
+full: presentation_long.tex header.tex | build
+		lualatex --output-directory=build presentation_long.tex
+		biber build/presentation_long.bcf
+		lualatex --output-directory=build presentation_long.tex
 
 build:
 		mkdir -p build
