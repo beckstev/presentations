@@ -127,7 +127,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>english</bcf:value>
+      <bcf:value>german</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
@@ -2144,7 +2144,10 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">karte_abschaltungen</bcf:citekey>
-    <bcf:citekey order="2">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="2">karte_abschaltungen</bcf:citekey>
+    <bcf:citekey order="3">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="4">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="5">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">

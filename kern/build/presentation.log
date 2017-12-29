@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 13:17
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 13:39
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.155 seconds
+luaotfload | main : initialization completed in 0.118 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1339,12 +1339,23 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 luatex-hyphen: using data file: /home/sb/.local/texlive/2017/texmf-var/tex/gener
 ic/config/language.dat.lua
 Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
-(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/polyglossia/gloss-english.ld
-f
-File: gloss-english.ldf polyglossia: module for english
+(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
+File: gloss-german.ldf polyglossia: module for german
+hyph-de-1901.pat.txt
+Language german was not yet loaded; created with id 4
+Language german already loaded; id is 4
+hyph-de-1996.pat.txt
+Language ngerman was not yet loaded; created with id 8
+Language ngerman already loaded; id is 8
+(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2013/04/30 Babel common definitions for shorthands
+ Taken verbatim from babel.def (2013/04/15 v3.9e)
 )
-Package polyglossia Info: Default language is english.
- (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package polyglossia Info: Making " an active character on input line 79.
+)
+Package polyglossia Info: Default language is german.
+
+(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
 
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -2127,11 +2138,11 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count496
 \@thisrulewidth=\dimen334
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
 
-(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+(/home/sb/.local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 
 Package biblatex Warning: Patching footnotes failed.
@@ -2143,7 +2154,14 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count497
 \@quotereset=\count498
-(./build/presentation.aux)
+(./build/presentation.aux
+luatex-hyphen: loading patterns and exceptions for: german (\language4)
+luatex-hyphen: info: no hyphenation exceptions for this language
+Language ngerman already loaded; id is 8
+
+LaTeX Warning: Label ` fig: karte_abschaltungen ' multiply defined.
+
+)
 \openout1 = presentation.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -2272,6 +2290,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Language ngerman already loaded; id is 8
 .................................................
 . chemgreek info: "mapping-activated"
 . 
@@ -2339,7 +2358,7 @@ Overfull \vbox (48.10194pt too high) detected at line 4
 ] [3
 
 ]
-<./bilder/akw_abschaltung_karte.png, id=37, pagebox=cropbox, 526.96875pt x 685.0
+<./bilder/akw_abschaltung_karte.png, id=41, pagebox=cropbox, 526.96875pt x 685.0
 5937pt>
 File: ./bilder/akw_abschaltung_karte.png Graphic file (type png)
 <use ./bilder/akw_abschaltung_karte.png>
@@ -2353,7 +2372,11 @@ LaTeX Warning: Citation 'karte_abschaltungen ' on page 4 undefined on input line
  31.
 
 
-Overfull \vbox (31.19893pt too high) detected at line 31
+LaTeX Warning: Citation 'karte_abschaltungen ' on page 4 undefined on input line
+ 31.
+
+
+Overfull \vbox (43.15886pt too high) detected at line 31
  []
 
 [4
@@ -2362,37 +2385,64 @@ Overfull \vbox (31.19893pt too high) detected at line 31
 
 ] [6
 
+] [7
+
+] [8
+
+] [9
+
 ]
-<./bilder/stillegungs_zeit_2_kernfragen.PNG, id=58, pagebox=cropbox, 721.19438pt
+<./bilder/vor_nachteile_direkter_einschluss.PNG, id=78, pagebox=cropbox, 1192.45
+5pt x 506.6428pt>
+File: ./bilder/vor_nachteile_direkter_einschluss.PNG Graphic file (type png)
+<use ./bilder/vor_nachteile_direkter_einschluss.PNG>
+Package luatex.def Info: ./bilder/vor_nachteile_direkter_einschluss.PNG  used on
+ input line 105. on input line 105.
+Package luatex.def Info: Requested size: 358.50229pt x 152.3187pt on input line 
+105.
+
+
+LaTeX Warning: Citation 'stilllegung_grs' on page 10 undefined on input line 105
+.
+
+
+LaTeX Warning: Citation 'stilllegung_grs' on page 10 undefined on input line 105
+.
+
+
+warning  (pdf backend): ignoring duplicate destination with the name '\040fig:\0
+40karte_abschaltungen\040'
+[10
+
+<./bilder/vor_nachteile_direkter_einschluss.PNG>]
+<./bilder/stillegungs_zeit_2_kernfragen.PNG, id=85, pagebox=cropbox, 721.19438pt
  x 621.07031pt>
 File: ./bilder/stillegungs_zeit_2_kernfragen.PNG Graphic file (type png)
 <use ./bilder/stillegungs_zeit_2_kernfragen.PNG>
 Package luatex.def Info: ./bilder/stillegungs_zeit_2_kernfragen.PNG  used on inp
-ut line 57. on input line 57.
+ut line 116. on input line 116.
 Package luatex.def Info: Requested size: 239.00558pt x 205.81621pt on input line
- 57.
+ 116.
 
 
-LaTeX Warning: Citation 'stilllegung_grs ' on page 7 undefined on input line 57.
+LaTeX Warning: Citation 'stilllegung_grs' on page 11 undefined on input line 116
+.
 
 
-
-Overfull \vbox (29.88596pt too high) detected at line 57
+Overfull \vbox (29.88596pt too high) detected at line 116
  []
 
-[7
+[11
 
-<./bilder/stillegungs_zeit_2_kernfragen.PNG>] [8
+<./bilder/stillegungs_zeit_2_kernfragen.PNG>]
 
-]
-
-LaTeX Warning: Empty bibliography on input line 92.
+LaTeX Warning: Empty bibliography on input line 123.
 
 
-Underfull \vbox (badness 1005) detected at line 92
+Underfull \vbox (badness 1005) detected at line 123
  []
 
-[9
+[12
 
 ]
 \tf@nav=\write8
@@ -2404,11 +2454,12 @@ Underfull \vbox (badness 1005) detected at line 92
 \tf@snm=\write10
 
 \openout10 = presentation.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (./build/presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+ (./build/presentation.aux
+Language ngerman already loaded; id is 8)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -2416,7 +2467,7 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2429,25 +2480,25 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44652 strings out of 494472
+ 44820 strings out of 494472
  100000,1648299 words of node,token memory allocated
  856 words of node memory still in use:
    11 hlist, 6 vlist, 2 rule, 9 glue, 1 kern, 7 penalty, 21 attribute, 85 glue_s
 pec, 21 attribute_list, 3 write, 4 pdf_colorstack nodes
-   avail lists: 1:7,2:392,3:138,4:98,5:141,6:587,7:280,8:31,9:172,10:8,11:51,12:
-1
- 47207 multiletter control sequences out of 65536+600000
- 82 fonts using 26249051 bytes
- 73i,13n,99p,1829b,2749s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:6,2:386,3:126,4:98,5:156,6:651,7:280,8:29,9:168,10:11,11:90,12
+:1
+ 47356 multiletter control sequences out of 65536+600000
+ 82 fonts using 26249103 bytes
+ 73i,13n,99p,1829b,2742s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmode
 rn-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-ma
 th/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/
 public/fira/FiraSans-Light.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/op
 entype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (9 pages, 159629 bytes).
+Output written on presentation.pdf (12 pages, 315838 bytes).
 
-PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 131072)
- 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 29 named destinations out of 1000 (max. 131072)
+ 32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
