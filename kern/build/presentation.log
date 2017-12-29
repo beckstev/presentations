@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 16:57
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 17:43
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.108 seconds
+luaotfload | main : initialization completed in 0.107 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -2497,34 +2497,44 @@ Package luatex.def Info: ./bilder/radioakives_material.PNG  used on input line 2
 73. on input line 273.
 Package luatex.def Info: Requested size: 378.42044pt x 170.56602pt on input line
  273.
-
-
-LaTeX Warning: Citation 'muell' on page 18 undefined on input line 273.
-
-[18
+ [18
 
 <./bilder/radioakives_material.PNG>] [19
 
 ]
-<./bilder/freigabeoption.PNG, id=173, pagebox=cropbox, 1088.56688pt x 657.2053pt
+<./bilder/gebaeudedekontamination.png, id=177, pagebox=cropbox, 753.81625pt x 57
+9.16376pt>
+File: ./bilder/gebaeudedekontamination.png Graphic file (type png)
+<use ./bilder/gebaeudedekontamination.png>
+Package luatex.def Info: ./bilder/gebaeudedekontamination.png  used on input lin
+e 308. on input line 308.
+Package luatex.def Info: Requested size: 191.20082pt x 146.89386pt on input line
+ 308.
+ [20
+
+<./bilder/gebaeudedekontamination.png>]
+<./bilder/freigabeoption.PNG, id=188, pagebox=cropbox, 1088.56688pt x 657.2053pt
 >
 File: ./bilder/freigabeoption.PNG Graphic file (type png)
 <use ./bilder/freigabeoption.PNG>
-Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 311. on
- input line 311.
+Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 333. on
+ input line 333.
 Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
- 311.
- [20
+ 333.
+ [21
 
-<./bilder/freigabeoption.PNG>]
-[21
-
-] [22
+<./bilder/freigabeoption.PNG>] [22
 
 ] [23
 
+] [24
+
 </home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.
-pdf>] [24
+pdf>] [25
+
+
+]
+[26
 
 
 ]
@@ -2537,12 +2547,12 @@ pdf>] [24
 \tf@snm=\write10
 
 \openout10 = presentation.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./build/presentation.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -2563,17 +2573,17 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45027 strings out of 494472
+ 45062 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 5541 words of node memory still in use:
-   27 hlist, 6 vlist, 4 rule, 30 disc, 2 local_par, 4 math, 118 glue, 54 kern, 5
-5 penalty, 431 glyph, 85 attribute, 86 glue_spec, 85 attribute_list, 3 write, 2 
-pdf_start_link, 2 pdf_end_link, 2 pdf_dest, 3 pdf_action, 24 pdf_colorstack node
-s
-   avail lists: 1:6,2:414,3:216,4:109,5:180,6:1038,7:396,8:144,9:229,10:13,11:12
-6,12:1
- 47477 multiletter control sequences out of 65536+600000
- 85 fonts using 27354139 bytes
+ 8027 words of node memory still in use:
+   37 hlist, 6 vlist, 6 rule, 39 disc, 4 local_par, 8 math, 191 glue, 102 kern, 
+83 penalty, 600 glyph, 146 attribute, 86 glue_spec, 146 attribute_list, 3 write,
+ 4 pdf_start_link, 4 pdf_end_link, 4 pdf_dest, 8 pdf_action, 44 pdf_colorstack n
+odes
+   avail lists: 1:6,2:594,3:288,4:139,5:274,6:2016,7:576,8:141,9:219,10:13,11:17
+7,12:1
+ 47496 multiletter control sequences out of 65536+600000
+ 85 fonts using 27354087 bytes
  73i,13n,99p,1829b,3152s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraSans-Lig
 htItalic.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira
@@ -2582,10 +2592,10 @@ blic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts
 /opentype/public/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texm
 f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
 17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (24 pages, 5022852 bytes).
+Output written on presentation.pdf (26 pages, 5970340 bytes).
 
-PDF statistics: 276 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 65 named destinations out of 1000 (max. 131072)
+PDF statistics: 310 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 

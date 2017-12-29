@@ -45,6 +45,29 @@
       \verb https://www.grs.de/sites/default/files/pdf/GRS-S-50.pdf
       \endverb
     \endentry
+    \entry{muell}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a9c4e18595389527fb1a66a980330458}{%
+           family={Atomforum},
+           familyi={A\bibinitperiod},
+           given={Deutsches},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9c4e18595389527fb1a66a980330458}
+      \strng{fullhash}{a9c4e18595389527fb1a66a980330458}
+      \strng{authornamehash}{a9c4e18595389527fb1a66a980330458}
+      \strng{authorfullhash}{a9c4e18595389527fb1a66a980330458}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stilllegung und Rückbau von Kernkraftwerken}
+      \field{version}{29.12.2017}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.kernfragen.de/sites/default/files/media/publication/file/060rueckbau-von-kkw.pdf
+      \endverb
+    \endentry
     \entry{karte_abschaltungen}{online}{}
       \name{author}{1}{}{%
         {{hash=86581adf6d689024ef086c0f5de18d24}{%
@@ -95,6 +118,29 @@
       \verb http://www.bmub.bund.de/themen/atomenergie-strahlenschutz/nukleare-sicherheit/stilllegung/
       \endverb
     \endentry
+    \entry{rueckstellungen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=19f31c62fde7dfa62878eee4edb3bdda}{%
+           family={Energien},
+           familyi={E\bibinitperiod},
+           given={Internationales\bibnamedelimb Wirtschaftsforum\bibnamedelima Regenerative},
+           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{19f31c62fde7dfa62878eee4edb3bdda}
+      \strng{fullhash}{19f31c62fde7dfa62878eee4edb3bdda}
+      \strng{authornamehash}{19f31c62fde7dfa62878eee4edb3bdda}
+      \strng{authorfullhash}{19f31c62fde7dfa62878eee4edb3bdda}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AKW-Abriss von Rückstellungen gedeckt – Milliardenrisiken drohen}
+      \field{version}{29.12.2017}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://iwr-institut.de/de/presse/presseinfos-kernenergie/201-akw-abriss-von-rueckstellungen-gedeckt-milliardenrisiken-drohen
+      \endverb
+    \endentry
     \entry{greenpeace}{online}{}
       \name{author}{1}{}{%
         {{hash=7628ecff54896cb076074261828e6623}{%
@@ -113,6 +159,76 @@
       \field{version}{28.12.2017}
       \verb{url}
       \verb https://www.greenpeace.de/themen/energiewende-atomkraft/atomkraftwerke/akw-rueckbau-die-altlast-des-nuklearen-wahns
+      \endverb
+    \endentry
+    \entry{nuklidenkarte}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1d8ede7ce80b4588489aa9475f1d1665}{%
+           family={KAERI},
+           familyi={K\bibinitperiod},
+           given={Nuclear\bibnamedelimb Data\bibnamedelima Center},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={at},
+           prefixi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8ede7ce80b4588489aa9475f1d1665}
+      \strng{fullhash}{1d8ede7ce80b4588489aa9475f1d1665}
+      \strng{authornamehash}{1d8ede7ce80b4588489aa9475f1d1665}
+      \strng{authorfullhash}{1d8ede7ce80b4588489aa9475f1d1665}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Table of Nuclides}
+      \field{version}{29.12.2017}
+      \verb{url}
+      \verb http://atom.kaeri.re.kr/nuchart/?zlv=2#
+      \endverb
+    \endentry
+    \entry{gebauededekontamination}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bce3547c97e1605fcba73e9fd0ceaf01}{%
+           family={Nuklearanlagen},
+           familyi={N\bibinitperiod},
+           given={Entsorgungswerk},
+           giveni={E\bibinitperiod},
+           prefix={für},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{bce3547c97e1605fcba73e9fd0ceaf01}
+      \strng{fullhash}{bce3547c97e1605fcba73e9fd0ceaf01}
+      \strng{authornamehash}{bce3547c97e1605fcba73e9fd0ceaf01}
+      \strng{authorfullhash}{bce3547c97e1605fcba73e9fd0ceaf01}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rückbau Kernkraftwerk Greifswald}
+      \field{version}{29.12.2017}
+      \verb{url}
+      \verb https://www.ewn-gmbh.de/projekte/rueckbau-kgr/
+      \endverb
+    \endentry
+    \entry{fe_decay}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4857038c01ddb1dc475a49d817c43574}{%
+           family={Volkmer},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4857038c01ddb1dc475a49d817c43574}
+      \strng{fullhash}{4857038c01ddb1dc475a49d817c43574}
+      \strng{authornamehash}{4857038c01ddb1dc475a49d817c43574}
+      \strng{authorfullhash}{4857038c01ddb1dc475a49d817c43574}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kernenergie Basiswissen}
+      \field{version}{29.12.2017}
+      \verb{url}
+      \verb http://www.kernenergie.de/kernenergie-wAssets/docs/service/018basiswissen.pdf
       \endverb
     \endentry
   \endsortlist
