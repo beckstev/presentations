@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 17:43
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  29 DEC 2017 17:47
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.107 seconds
+luaotfload | main : initialization completed in 0.117 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1605,15 +1605,15 @@ odernMath:mode=base;script=math;language=DFLT;+ssty=0;"<-8>"LatinModernMath:mode
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 17.
+(Font)              `operators' in the math version `normal' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LatinModernMath(0)/m/n on input line 
-17.
+18.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 17.
+(Font)              `operators' in the math version `bold' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(0)/bx/n on input lin
-e 17.
+e 18.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1659,15 +1659,15 @@ e=10.95-},{Size=8-10.95,Font=Latin
 . =179404.75sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 17.
+(Font)              `symbols' in the math version `normal' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(1)/m/n on input line
- 17.
+ 18.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 17.
+(Font)              `symbols' in the math version `bold' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(1)/bx/n on input lin
-e 17.
+e 18.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1702,16 +1702,16 @@ e=10.95-},{Size=8-10.95,Font=Latin
 . \fontdimen 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 17
+(Font)              `largesymbols' in the math version `normal' on input line 18
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(2)/m/n on input line
- 17.
+ 18.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 17.
+(Font)              `largesymbols' in the math version `bold' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(2)/bx/n on input lin
-e 17.
+e 18.
 
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -2529,12 +2529,10 @@ Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
 
 ] [24
 
-</home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.
-pdf>] [25
+] [25
 
 
-]
-[26
+] [26
 
 
 ]
@@ -2549,7 +2547,8 @@ pdf>] [25
 \openout10 = presentation.snm
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
- (./build/presentation.aux
+
+(./build/presentation.aux
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
@@ -2573,17 +2572,17 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45062 strings out of 494472
+ 45063 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 8027 words of node memory still in use:
-   37 hlist, 6 vlist, 6 rule, 39 disc, 4 local_par, 8 math, 191 glue, 102 kern, 
-83 penalty, 600 glyph, 146 attribute, 86 glue_spec, 146 attribute_list, 3 write,
- 4 pdf_start_link, 4 pdf_end_link, 4 pdf_dest, 8 pdf_action, 44 pdf_colorstack n
-odes
-   avail lists: 1:6,2:594,3:288,4:139,5:274,6:2016,7:576,8:141,9:219,10:13,11:17
-7,12:1
- 47496 multiletter control sequences out of 65536+600000
- 85 fonts using 27354087 bytes
+ 5892 words of node memory still in use:
+   26 hlist, 6 vlist, 2 rule, 32 disc, 3 local_par, 6 math, 126 glue, 81 kern, 5
+9 penalty, 414 glyph, 121 attribute, 86 glue_spec, 121 attribute_list, 3 write, 
+3 pdf_start_link, 3 pdf_end_link, 3 pdf_dest, 8 pdf_action, 34 pdf_colorstack no
+des
+   avail lists: 1:6,2:662,3:345,4:159,5:327,6:2341,7:685,8:144,9:230,10:13,11:19
+3,12:1
+ 47497 multiletter control sequences out of 65536+600000
+ 85 fonts using 27354191 bytes
  73i,13n,99p,1829b,3152s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraSans-Lig
 htItalic.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira
@@ -2592,10 +2591,10 @@ blic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts
 /opentype/public/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texm
 f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
 17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (26 pages, 5970340 bytes).
+Output written on presentation.pdf (26 pages, 5968965 bytes).
 
-PDF statistics: 310 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+PDF statistics: 302 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  75 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
