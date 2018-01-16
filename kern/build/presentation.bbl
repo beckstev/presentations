@@ -68,31 +68,6 @@
       \verb http://www.kernfragen.de/sites/default/files/media/publication/file/060rueckbau-von-kkw.pdf
       \endverb
     \endentry
-    \entry{karte_abschaltungen}{online}{}
-      \name{author}{1}{}{%
-        {{hash=86581adf6d689024ef086c0f5de18d24}{%
-           family={Bundesministerium\bibnamedelimb für\bibnamedelima Umwelt},
-           familyi={B\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim U\bibinitperiod},
-           given={Bau\bibnamedelimb und\bibnamedelima Reaktorsicherheit},
-           giveni={B\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim R\bibinitperiod},
-           suffix={Naturschutz},
-           suffixi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{86581adf6d689024ef086c0f5de18d24}
-      \strng{fullhash}{86581adf6d689024ef086c0f5de18d24}
-      \strng{authornamehash}{86581adf6d689024ef086c0f5de18d24}
-      \strng{authorfullhash}{86581adf6d689024ef086c0f5de18d24}
-      \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Atomkraftwerke in Deutschland}
-      \field{version}{28.12.2017}
-      \field{year}{2017}
-      \verb{url}
-      \verb http://www.bmub.bund.de/themen/atomenergie-strahlenschutz/nukleare-sicherheit/aufsicht-ueber-kernkraftwerke/kernkraftwerke-in-deutschland/
-      \endverb
-    \endentry
     \entry{artikel_stilllegung}{online}{}
       \name{author}{1}{}{%
         {{hash=86581adf6d689024ef086c0f5de18d24}{%
@@ -185,6 +160,27 @@
       \verb http://atom.kaeri.re.kr/nuchart/?zlv=2#
       \endverb
     \endentry
+    \entry{karte_abschaltungen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=442840c0faa6508fc70c0618d116cee7}{%
+           family={Lencer},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{442840c0faa6508fc70c0618d116cee7}
+      \strng{fullhash}{442840c0faa6508fc70c0618d116cee7}
+      \strng{authornamehash}{442840c0faa6508fc70c0618d116cee7}
+      \strng{authorfullhash}{442840c0faa6508fc70c0618d116cee7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kernkraftwerke in Deutschland, Stand nach dem Atomkonsens vom 30.6.2011}
+      \field{version}{16.01.2018}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Kernkraftwerke_in_Deutschland.png
+      \endverb
+    \endentry
     \entry{gebauededekontamination}{online}{}
       \name{author}{1}{}{%
         {{hash=bce3547c97e1605fcba73e9fd0ceaf01}{%
@@ -230,6 +226,26 @@
       \verb{url}
       \verb http://www.kernenergie.de/kernenergie-wAssets/docs/service/018basiswissen.pdf
       \endverb
+    \endentry
+    \entry{neutroneneinfang}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e1b21073fa140822ffba11b7367c885}{%
+           family={Wegener},
+           familyi={W\bibinitperiod},
+           given={Dietrich\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e1b21073fa140822ffba11b7367c885}
+      \strng{fullhash}{3e1b21073fa140822ffba11b7367c885}
+      \strng{authornamehash}{3e1b21073fa140822ffba11b7367c885}
+      \strng{authorfullhash}{3e1b21073fa140822ffba11b7367c885}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vorlesung Einfuhrung in die Kern- und Elementarteilchenphysik}
+      \field{version}{29.12.2017}
+      \field{year}{2003}
     \endentry
   \endsortlist
 \endrefsection

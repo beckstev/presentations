@@ -1,10 +1,11 @@
-\beamer@slide { fig: karte_abschaltungen }{4}
-\beamer@slide { fig: karte_abschaltungen }{10}
-\beamer@slide { fig: stillegung }{11}
-\beamer@slide { fig: phase_1 }{12}
-\beamer@slide { fig: phase_2 }{13}
-\beamer@slide { fig: phase_3 }{14}
-\beamer@slide { fig: phase_4 }{15}
+\beamer@slide { fig: karte_abschaltungen }{3}
+\beamer@slide { fig: stillegung }{5}
+\beamer@slide { fig: karte_abschaltungen }{9}
+\beamer@slide { fig: phase_1 }{11}
+\beamer@slide { fig: phase_2 }{12}
+\beamer@slide { fig: phase_3 }{13}
+\beamer@slide { fig: phase_4 }{14}
+\beamer@slide { fig: abbau_roboter}{15}
 \beamer@slide { fig: abbau_roboter}{16}
 \beamer@slide { fig: muell_kontrollbereich}{18}
 \beamer@slide {fig: gebaeudekontamination}{20}

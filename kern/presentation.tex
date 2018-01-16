@@ -17,17 +17,30 @@
 
 
 
-\section{Situation in Deutschland}
 
 
 
 \begin{frame}{ Situation in Deutschland }
-  \begin{figure}
-     \centering
-     \includegraphics[width=0.4\textwidth]{./bilder/akw_abschaltung_karte.png}
-     \caption{ Auflistung der Abschaltungsjahre von deutschen AKWs \cite{ karte_abschaltungen }. }
-     \label{ fig: karte_abschaltungen }
-   \end{figure}
+  \begin{columns}
+
+    \begin{column}{0.48\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\textwidth]{./bilder/Kernkraftwerke_in_Deutschland.png}
+        \caption{ Auflistung aller deutschen Akws \cite{ karte_abschaltungen }. }
+        \label{ fig: karte_abschaltungen }
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{1.2em}
+          \item{ 2022 letzte Abschaltung }
+          \item{ 27 Akws mit 36 Reaktoren }
+          \item{ 38 Forschungsreaktoren}
+        \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 
@@ -37,12 +50,28 @@
 
 
 \begin{frame}{ Weg zur Stilllegung }
-  \begin{itemize}
-    \setlength\itemsep{1.2em}
-      \item{ Stillegungen müssen beantragt werden}
-      \item{ Länder sind dafür zuständig}
-      \item{ Unterliegt dem Atomrecht}
-  \end{itemize}
+   \begin{columns}
+
+    \begin{column}{0.48\textwidth}
+      \begin{itemize}
+       \setlength\itemsep{1.2em}
+         \item{ Stillegungen müssen beantragt werden}
+         \item{ Länder sind dafür zuständig}
+         \item{ Unterliegt dem Atomrecht}
+         \item{ 2 Stillegungsstretegien \\ Direkter Abbau und Sicher Einschluss}
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{./bilder/stilllegung_nachbetrieb.pdf}
+        \caption{ Zeitlicher Verlauf eines direkten Abbau\cite{stilllegung_grs}. }
+        \label{ fig: stillegung }
+      \end{figure}
+    \end{column}
+
+  \end{columns}
 \end{frame}
 
 
@@ -75,7 +104,7 @@
 
 
 \begin{frame}{Stillegungstrategien - Direkter Abbau}
-  \begin{itemize}
+   \begin{itemize}
     \setlength\itemsep{1.2em}
       \item{ Rückkbau unmittelbar nach Abschaltung }
       \item{ dauert mindestens $10$ Jahre }
@@ -106,14 +135,7 @@
 
 
 
-\begin{frame}{ Weg zur Stillegung - Direkter Abbau }
-  \begin{figure}
-     \centering
-     \includegraphics[width=0.6\textwidth]{./bilder/stillegungs_zeit_2_kernfragen.PNG}
-     \caption{ Zeitlicher Verlauf eines direkten Abbau\cite{stilllegung_grs}. }
-     \label{ fig: stillegung }
-   \end{figure}
-\end{frame}
+\section{Der Rückbau}
 
 
 
@@ -157,7 +179,7 @@
      \begin{column}{0.48\textwidth}
        \begin{itemize}
          \setlength\itemsep{1.2em}
-         \item{ Enterfnung des Primärkühlkreislaufs }
+         \item{ Entfernung des Primärkühlkreislaufs }
          \item{ Abbau des Dampferzeugers}
        \end{itemize}
      \end{column}
@@ -225,8 +247,8 @@
     \begin{itemize}
       \setlength\itemsep{1.2em}
       \item{Strahlenexpositionen für das Personal müssen möglichst gering sein }
-      \item{ räumliche Randbedinung }
-      \item{ mechanische und thermische Verfahren }
+      \item{ räumliche Randbedinungen }
+      \item{ Verwendung von mechanische und thermische Verfahren }
 
     \end{itemize}
 
@@ -246,12 +268,33 @@
 
 
 
-\begin{frame}{Radioaktiver Abfall}
-  \begin{itemize}
-    \setlength\itemsep{1.2em}
-    \item{Brennelemente}
-    \item{z.\,B. Kühlmittel, Beton und Stahl auf Grund von Neutroneneinfang}
-  \end{itemize}
+\begin{frame}{Radioaktiver Abfall -Neutronaktivierung}
+  \begin{columns}
+
+    \begin{column}{0.48\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{1.2em}
+        \item{Brennelemente}
+        \item{z.\,B. Kühlmittel, Beton und Stahl auf Grund von Neutroneneinfang}
+        \item{ Vergößerung der Menge an radioaktove Abfall}
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+        \begin{figure}
+           \centering
+           \includegraphics[width=0.8\textwidth]{./bilder/einfangwahrscheinlichkeit_neutron.png}
+           \caption{Einfangsquerschnitt fur Neutronen als Funktion der Neutronenzahl der Kerne \cite{neutroneneinfang}. }
+           \label{ fig: abbau_roboter}
+         \end{figure}
+    \end{column}
+
+  \end{columns}
+\end{frame}
+
+
+
+\begin{frame}{Neutronaktivierung}
   \begin{align*}
     \shortintertext{Stahl}
     ^{58}_{26}\ce{Fe}+ ^1_0\mathrm{n }\quad &\rightarrow \quad  ^{59}_{26}\ce{Co} \quad \rightarrow \quad ^{59}_{27}\ce{Fe} + _{-1}^{0}\ce{e}+\gamma \\
@@ -278,7 +321,7 @@
   \begin{itemize}
     \setlength\itemsep{1.2em}
     \item{ Verrinerrung der Radioaktivität}
-    \item{ Strahlende Stoffe meist nur an der Oberfläche}
+    \item{ Aktivierung am stäkrsten an der Oberfläche}
     \item{ Verwendung von mechanischen und chemischen Verfahren}
     \item { Reinigung der Oberfläche oder Entfernen der obersten Schicht}
   \end{itemize}
@@ -331,6 +374,10 @@
 
   \end{columns}
 \end{frame}
+
+
+
+\section{Kosten}
 
 
 
