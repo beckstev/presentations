@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  26 JAN 2018 21:40
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  26 JAN 2018 22:26
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.121 seconds
+luaotfload | main : initialization completed in 0.110 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -2319,12 +2319,11 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout6 = presentation.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'presentation.bbl' not found.
-
-No file presentation.bbl.
+Package biblatex Info: ... file 'presentation.bbl' found.
+ (./build/presentation.bbl)
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
-(./build/presentation.nav)
+ (./build/presentation.nav)
 \c__siunitx_mathsf_int=\count506
 LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 2.
@@ -2359,7 +2358,7 @@ Overfull \vbox (48.10194pt too high) detected at line 4
 [2
 
 ]
-<./bilder/Kernkraftwerke_in_Deutschland.png, id=34, pagebox=cropbox, 1062.21844p
+<./bilder/Kernkraftwerke_in_Deutschland.png, id=38, pagebox=cropbox, 1062.21844p
 t x 1129.21875pt>
 File: ./bilder/Kernkraftwerke_in_Deutschland.png Graphic file (type png)
 <use ./bilder/Kernkraftwerke_in_Deutschland.png>
@@ -2368,16 +2367,7 @@ ut line 48. on input line 48.
 Package luatex.def Info: Requested size: 191.20082pt x 203.2506pt on input line 
 48.
 
-
-LaTeX Warning: Citation 'karte_abschaltungen' on page 3 undefined on input line 
-48.
-
-
-LaTeX Warning: Citation 'karte_abschaltungen' on page 3 undefined on input line 
-48.
-
-
-Overfull \vbox (34.80528pt too high) detected at line 48
+Overfull \vbox (33.81528pt too high) detected at line 48
  []
 
 [3
@@ -2385,7 +2375,7 @@ Overfull \vbox (34.80528pt too high) detected at line 48
 <./bilder/Kernkraftwerke_in_Deutschland.png>] [4
 
 ]
-<./bilder/stilllegung_nachbetrieb.pdf, id=49, pagebox=cropbox, 692.74164pt x 612
+<./bilder/stilllegung_nachbetrieb.pdf, id=57, pagebox=cropbox, 692.74164pt x 612
 .53445pt>
 File: ./bilder/stilllegung_nachbetrieb.pdf Graphic file (type pdf)
 <use ./bilder/stilllegung_nachbetrieb.pdf>
@@ -2399,13 +2389,7 @@ Overfull \hbox (9.56062pt too wide) in paragraph at lines 79--79
  []
 
 
-LaTeX Warning: Citation 'stilllegung_grs' on page 5 undefined on input line 79.
-
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 5 undefined on input line 79.
-
-
-Overfull \vbox (24.70354pt too high) detected at line 79
+Overfull \vbox (23.71353pt too high) detected at line 79
  []
 
 [5
@@ -2417,8 +2401,8 @@ Overfull \vbox (24.70354pt too high) detected at line 79
 ] [8
 
 ]
-<./bilder/vor_nachteile_direkter_einschluss.PNG, id=92, pagebox=cropbox, 1192.45
-5pt x 506.6428pt>
+<./bilder/vor_nachteile_direkter_einschluss.PNG, id=104, pagebox=cropbox, 1192.4
+55pt x 506.6428pt>
 File: ./bilder/vor_nachteile_direkter_einschluss.PNG Graphic file (type png)
 <use ./bilder/vor_nachteile_direkter_einschluss.PNG>
 Package luatex.def Info: ./bilder/vor_nachteile_direkter_einschluss.PNG  used on
@@ -2426,21 +2410,8 @@ Package luatex.def Info: ./bilder/vor_nachteile_direkter_einschluss.PNG  used on
 Package luatex.def Info: Requested size: 398.3386pt x 169.24129pt on input line 
 140.
 
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 9 undefined on input line 140.
-
-
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 9 undefined on input line 140.
-
-
-
 warning  (pdf backend): ignoring duplicate destination with the name '\040fig:\0
 40karte_abschaltungen\040'
-
-Overfull \vbox (5.27097pt too high) detected at line 140
- []
-
 [9
 
 <./bilder/vor_nachteile_direkter_einschluss.PNG>]
@@ -2448,7 +2419,7 @@ Overfull \hbox (163.27014pt too wide) in paragraph at lines 161--161
  [][][][][][][] []$[]$ 
  []
 
-<./bilder/stillegung_phasen.png, id=100, pagebox=cropbox, 815.045pt x 718.685pt>
+<./bilder/stillegung_phasen.png, id=114, pagebox=cropbox, 815.045pt x 718.685pt>
 
 File: ./bilder/stillegung_phasen.png Graphic file (type png)
 <use ./bilder/stillegung_phasen.png>
@@ -2456,10 +2427,6 @@ Package luatex.def Info: ./bilder/stillegung_phasen.png  used on input line 161.
  on input line 161.
 Package luatex.def Info: Requested size: 248.56383pt x 219.17119pt on input line
  161.
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 10 undefined on input line 161
-.
-
 
 warning  (pdf backend): ignoring duplicate destination with the name '\040fig:\0
 40stillegung\040'
@@ -2470,7 +2437,7 @@ Overfull \vbox (6.38058pt too high) detected at line 161
 [10
 
 <./bilder/stillegung_phasen.png>]
-<./bilder/abbau_phase_1_spiegel.png, id=107, pagebox=cropbox, 770.88pt x 705.636
+<./bilder/abbau_phase_1_spiegel.png, id=122, pagebox=cropbox, 770.88pt x 705.636
 25pt>
 File: ./bilder/abbau_phase_1_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_1_spiegel.png>
@@ -2479,22 +2446,13 @@ Package luatex.def Info: ./bilder/abbau_phase_1_spiegel.png  used on input line
 Package luatex.def Info: Requested size: 162.52185pt x 148.75864pt on input line
  187.
 
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 11 undefined on input line 
-187.
-
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 11 undefined on input line 
-187.
-
-
-Overfull \vbox (21.7131pt too high) detected at line 187
+Overfull \vbox (7.85318pt too high) detected at line 187
  []
 
 [11
 
 <./bilder/abbau_phase_1_spiegel.png>]
-<./bilder/abbau_phase_2_spiegel.png, id=115, pagebox=cropbox, 782.925pt x 704.63
+<./bilder/abbau_phase_2_spiegel.png, id=134, pagebox=cropbox, 782.925pt x 704.63
 25pt>
 File: ./bilder/abbau_phase_2_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_2_spiegel.png>
@@ -2503,22 +2461,13 @@ Package luatex.def Info: ./bilder/abbau_phase_2_spiegel.png  used on input line
 Package luatex.def Info: Requested size: 162.52185pt x 146.26765pt on input line
  213.
 
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 12 undefined on input line 
-213.
-
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 12 undefined on input line 
-213.
-
-
-Overfull \vbox (19.22212pt too high) detected at line 213
+Overfull \vbox (5.3622pt too high) detected at line 213
  []
 
 [12
 
 <./bilder/abbau_phase_2_spiegel.png>]
-<./bilder/abbau_phase_3_spiegel.png, id=122, pagebox=cropbox, 780.9175pt x 707.6
+<./bilder/abbau_phase_3_spiegel.png, id=144, pagebox=cropbox, 780.9175pt x 707.6
 4375pt>
 File: ./bilder/abbau_phase_3_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_3_spiegel.png>
@@ -2527,22 +2476,13 @@ Package luatex.def Info: ./bilder/abbau_phase_3_spiegel.png  used on input line
 Package luatex.def Info: Requested size: 162.52185pt x 147.27065pt on input line
  239.
 
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 13 undefined on input line 
-239.
-
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 13 undefined on input line 
-239.
-
-
-Overfull \vbox (20.22511pt too high) detected at line 239
+Overfull \vbox (6.36519pt too high) detected at line 239
  []
 
 [13
 
 <./bilder/abbau_phase_3_spiegel.png>]
-<./bilder/abbau_phase_4_spiegel.png, id=129, pagebox=cropbox, 772.8875pt x 706.6
+<./bilder/abbau_phase_4_spiegel.png, id=154, pagebox=cropbox, 772.8875pt x 706.6
 4pt>
 File: ./bilder/abbau_phase_4_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_4_spiegel.png>
@@ -2551,22 +2491,13 @@ Package luatex.def Info: ./bilder/abbau_phase_4_spiegel.png  used on input line
 Package luatex.def Info: Requested size: 162.52185pt x 148.59286pt on input line
  265.
 
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 14 undefined on input line 
-265.
-
-
-LaTeX Warning: Citation 'abbau_grafik_stade' on page 14 undefined on input line 
-265.
-
-
-Overfull \vbox (21.54733pt too high) detected at line 265
+Overfull \vbox (7.68741pt too high) detected at line 265
  []
 
 [14
 
 <./bilder/abbau_phase_4_spiegel.png>]
-<./bilder/zerlegung_bandsaege.PNG, id=136, pagebox=cropbox, 1088.56688pt x 681.2
+<./bilder/zerlegung_bandsaege.PNG, id=165, pagebox=cropbox, 1088.56688pt x 681.2
 9532pt>
 File: ./bilder/zerlegung_bandsaege.PNG Graphic file (type png)
 <use ./bilder/zerlegung_bandsaege.PNG>
@@ -2574,125 +2505,62 @@ Package luatex.def Info: ./bilder/zerlegung_bandsaege.PNG  used on input line 29
 3. on input line 293.
 Package luatex.def Info: Requested size: 181.64018pt x 113.67715pt on input line
  293.
+ [15
 
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 15 undefined on input line 293
-.
-
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 15 undefined on input line 293
-.
-
-[15
-
-<./bilder/zerlegung_bandsaege.PNG>]
-<./bilder/einfangwahrscheinlichkeit_neutron.png, id=144, pagebox=cropbox, 903.37
-5pt x 692.5875pt>
-File: ./bilder/einfangwahrscheinlichkeit_neutron.png Graphic file (type png)
-<use ./bilder/einfangwahrscheinlichkeit_neutron.png>
-Package luatex.def Info: ./bilder/einfangwahrscheinlichkeit_neutron.png  used on
- input line 319. on input line 319.
-Package luatex.def Info: Requested size: 200.76144pt x 153.91264pt on input line
- 319.
-
-Overfull \hbox (9.56062pt too wide) in paragraph at lines 319--319
- [] 
- []
-
-
-LaTeX Warning: Citation 'neutroneneinfang' on page 16 undefined on input line 31
-9.
-
-
-LaTeX Warning: Citation 'neutroneneinfang' on page 16 undefined on input line 31
-9.
-
-
-warning  (pdf backend): ignoring duplicate destination with the name '\040fig:\0
-40abbau_roboter'
-
-Overfull \vbox (14.90718pt too high) detected at line 319
- []
-
-[16
-
-<./bilder/einfangwahrscheinlichkeit_neutron.png>] [17
+<./bilder/zerlegung_bandsaege.PNG>] [16
 
 ]
-<./bilder/radioakives_material.PNG, id=155, pagebox=cropbox, 1130.72438pt x 509.
+<./bilder/radioakives_material.PNG, id=181, pagebox=cropbox, 1130.72438pt x 509.
 65407pt>
 File: ./bilder/radioakives_material.PNG Graphic file (type png)
 <use ./bilder/radioakives_material.PNG>
 Package luatex.def Info: ./bilder/radioakives_material.PNG  used on input line 3
-42. on input line 342.
+24. on input line 324.
 Package luatex.def Info: Requested size: 378.42044pt x 170.56602pt on input line
- 342.
+ 324.
 
+Overfull \vbox (5.6057pt too high) detected at line 324
+ []
 
-LaTeX Warning: Citation 'muell' on page 18 undefined on input line 342.
+[17
 
-[18
-
-<./bilder/radioakives_material.PNG>] [19
+<./bilder/radioakives_material.PNG>] [18
 
 ]
-
-LaTeX Warning: Reference `fig: gebaeudekontamination' on page 20 undefined on in
-put line 377.
-
-<./bilder/gebaeudedekontamination.png, id=170, pagebox=cropbox, 753.81625pt x 57
+<./bilder/gebaeudedekontamination.png, id=199, pagebox=cropbox, 753.81625pt x 57
 9.16376pt>
 File: ./bilder/gebaeudedekontamination.png Graphic file (type png)
 <use ./bilder/gebaeudedekontamination.png>
 Package luatex.def Info: ./bilder/gebaeudedekontamination.png  used on input lin
-e 377. on input line 377.
+e 359. on input line 359.
 Package luatex.def Info: Requested size: 191.20082pt x 146.89386pt on input line
- 377.
-
-LaTeX Warning: Citation 'gebauededekontamination' on page 20 undefined on input 
-line 377.
-
-
-LaTeX Warning: Citation 'gebauededekontamination' on page 20 undefined on input 
-line 377.
-
-[20
+ 359.
+ [19
 
 <./bilder/gebaeudedekontamination.png>]
-<./bilder/freigabeoption.PNG, id=178, pagebox=cropbox, 1088.56688pt x 657.2053pt
+<./bilder/freigabeoption.PNG, id=210, pagebox=cropbox, 1088.56688pt x 657.2053pt
 >
 File: ./bilder/freigabeoption.PNG Graphic file (type png)
 <use ./bilder/freigabeoption.PNG>
-Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 402. on
- input line 402.
+Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 384. on
+ input line 384.
 Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
- 402.
+ 384.
+ [20
 
+<./bilder/freigabeoption.PNG>] [21
 
-LaTeX Warning: Citation 'stilllegung_grs' on page 21 undefined on input line 402
-.
-
-
-LaTeX Warning: Citation 'stilllegung_grs' on page 21 undefined on input line 402
-.
-
-[21
-
-<./bilder/freigabeoption.PNG>] [22
+] [22
 
 ] [23
 
 ] [24
 
-]
-
-LaTeX Warning: Empty bibliography on input line 434.
+] [25
 
 
-Underfull \vbox (badness 1005) detected at line 434
- []
+] [26
 
-[25
 
 ]
 \tf@nav=\write8
@@ -2704,12 +2572,13 @@ Underfull \vbox (badness 1005) detected at line 434
 \tf@snm=\write10
 
 \openout10 = presentation.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 436.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 436.
- (./build/presentation.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+
+(./build/presentation.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 436.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 436.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -2720,9 +2589,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                presentation
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 
@@ -2730,25 +2597,29 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45008 strings out of 494472
+ 45077 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 869 words of node memory still in use:
-   12 hlist, 6 vlist, 2 rule, 9 glue, 1 kern, 7 penalty, 22 attribute, 85 glue_s
-pec, 22 attribute_list, 3 write, 4 pdf_colorstack nodes
-   avail lists: 1:6,2:529,3:233,4:114,5:245,6:960,7:347,8:35,9:233,10:12,11:158,
-12:1
- 47448 multiletter control sequences out of 65536+600000
- 83 fonts using 26682711 bytes
- 73i,13n,99p,1829b,3099s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmode
-rn-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-ma
-th/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/
-public/fira/FiraSans-Light.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/op
-entype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (25 pages, 5958103 bytes).
+ 7913 words of node memory still in use:
+   32 hlist, 6 vlist, 2 rule, 47 disc, 4 local_par, 6 math, 161 glue, 118 kern, 
+67 penalty, 610 glyph, 152 attribute, 86 glue_spec, 152 attribute_list, 3 write,
+ 3 pdf_start_link, 3 pdf_end_link, 4 pdf_dest, 7 pdf_action, 44 pdf_colorstack n
+odes
+   avail lists: 1:5,2:726,3:335,4:169,5:346,6:2231,7:678,8:131,9:239,10:13,11:19
+2,12:1
+ 47502 multiletter control sequences out of 65536+600000
+ 85 fonts using 27354035 bytes
+ 73i,13n,99p,1829b,3148s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraSans-Lig
+htItalic.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira
+/FiraMono-Regular.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/pu
+blic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts
+/opentype/public/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texm
+f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
+17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
+Output written on presentation.pdf (26 pages, 5828283 bytes).
 
-PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 64 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 330 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

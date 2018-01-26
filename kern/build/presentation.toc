@@ -3,4 +3,4 @@
 \select@language {german}
 \beamer@sectionintoc {1}{Weg zum Rückbau}{4}{0}{1}
 \beamer@sectionintoc {2}{Der Rückbau}{10}{0}{2}
-\beamer@sectionintoc {3}{Kosten}{22}{0}{3}
+\beamer@sectionintoc {3}{Kosten}{21}{0}{3}

@@ -7,7 +7,6 @@
 \beamer@slide { fig: phase_3 }{13}
 \beamer@slide { fig: phase_4 }{14}
 \beamer@slide { fig: abbau_roboter}{15}
-\beamer@slide { fig: abbau_roboter}{16}
-\beamer@slide { fig: muell_kontrollbereich}{18}
-\beamer@slide {fig: gebaeudekontamination}{20}
-\beamer@slide { fig: freigabegrenzwerte}{21}
+\beamer@slide { fig: muell_kontrollbereich}{17}
+\beamer@slide {fig: gebaeudekontamination}{19}
+\beamer@slide { fig: freigabegrenzwerte}{20}
