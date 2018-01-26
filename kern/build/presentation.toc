@@ -1,6 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {german}
-\beamer@sectionintoc {1}{Weg zum Rückbau}{5}{0}{1}
-\beamer@sectionintoc {2}{Der Rückbau}{11}{0}{2}
-\beamer@sectionintoc {3}{Kosten}{23}{0}{3}
+\beamer@sectionintoc {1}{Weg zum Rückbau}{4}{0}{1}
+\beamer@sectionintoc {2}{Der Rückbau}{10}{0}{2}
+\beamer@sectionintoc {3}{Kosten}{22}{0}{3}
