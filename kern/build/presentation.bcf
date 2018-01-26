@@ -2158,13 +2158,15 @@
     <bcf:citekey order="13">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="14">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="15">stilllegung_grs</bcf:citekey>
-    <bcf:citekey order="16">neutroneneinfang</bcf:citekey>
-    <bcf:citekey order="17">neutroneneinfang</bcf:citekey>
-    <bcf:citekey order="18">muell</bcf:citekey>
-    <bcf:citekey order="19">gebauededekontamination</bcf:citekey>
-    <bcf:citekey order="20">gebauededekontamination</bcf:citekey>
-    <bcf:citekey order="21">stilllegung_grs</bcf:citekey>
-    <bcf:citekey order="22">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="16">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="17">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="18">neutroneneinfang</bcf:citekey>
+    <bcf:citekey order="19">neutroneneinfang</bcf:citekey>
+    <bcf:citekey order="20">muell</bcf:citekey>
+    <bcf:citekey order="21">gebauededekontamination</bcf:citekey>
+    <bcf:citekey order="22">gebauededekontamination</bcf:citekey>
+    <bcf:citekey order="23">stilllegung_grs</bcf:citekey>
+    <bcf:citekey order="24">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
