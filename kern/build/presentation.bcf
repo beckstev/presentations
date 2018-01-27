@@ -2159,10 +2159,10 @@
     <bcf:citekey order="14">abbau_grafik_stade</bcf:citekey>
     <bcf:citekey order="15">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="16">stilllegung_grs</bcf:citekey>
-    <bcf:citekey order="17">muell</bcf:citekey>
-    <bcf:citekey order="18">muell</bcf:citekey>
-    <bcf:citekey order="19">gebauededekontamination</bcf:citekey>
-    <bcf:citekey order="20">gebauededekontamination</bcf:citekey>
+    <bcf:citekey order="17">gebauededekontamination</bcf:citekey>
+    <bcf:citekey order="18">gebauededekontamination</bcf:citekey>
+    <bcf:citekey order="19">muell</bcf:citekey>
+    <bcf:citekey order="20">muell</bcf:citekey>
     <bcf:citekey order="21">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="22">stilllegung_grs</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  26 JAN 2018 22:26
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  27 JAN 2018 22:21
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.110 seconds
+luaotfload | main : initialization completed in 0.107 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -2509,46 +2509,47 @@ Package luatex.def Info: Requested size: 181.64018pt x 113.67715pt on input line
 
 <./bilder/zerlegung_bandsaege.PNG>] [16
 
-]
-<./bilder/radioakives_material.PNG, id=181, pagebox=cropbox, 1130.72438pt x 509.
-65407pt>
-File: ./bilder/radioakives_material.PNG Graphic file (type png)
-<use ./bilder/radioakives_material.PNG>
-Package luatex.def Info: ./bilder/radioakives_material.PNG  used on input line 3
-24. on input line 324.
-Package luatex.def Info: Requested size: 378.42044pt x 170.56602pt on input line
- 324.
-
-Overfull \vbox (5.6057pt too high) detected at line 324
- []
-
-[17
-
-<./bilder/radioakives_material.PNG>] [18
+] [17
 
 ]
-<./bilder/gebaeudedekontamination.png, id=199, pagebox=cropbox, 753.81625pt x 57
+<./bilder/gebaeudedekontamination.png, id=187, pagebox=cropbox, 753.81625pt x 57
 9.16376pt>
 File: ./bilder/gebaeudedekontamination.png Graphic file (type png)
 <use ./bilder/gebaeudedekontamination.png>
 Package luatex.def Info: ./bilder/gebaeudedekontamination.png  used on input lin
-e 359. on input line 359.
+e 349. on input line 349.
 Package luatex.def Info: Requested size: 191.20082pt x 146.89386pt on input line
- 359.
- [19
+ 349.
+ [18
 
 <./bilder/gebaeudedekontamination.png>]
+<./bilder/radioakives_material.PNG, id=198, pagebox=cropbox, 1130.72438pt x 509.
+65407pt>
+File: ./bilder/radioakives_material.PNG Graphic file (type png)
+<use ./bilder/radioakives_material.PNG>
+Package luatex.def Info: ./bilder/radioakives_material.PNG  used on input line 3
+60. on input line 360.
+Package luatex.def Info: Requested size: 378.42044pt x 170.56602pt on input line
+ 360.
+
+Overfull \vbox (5.6057pt too high) detected at line 360
+ []
+
+[19
+
+<./bilder/radioakives_material.PNG>]
 <./bilder/freigabeoption.PNG, id=210, pagebox=cropbox, 1088.56688pt x 657.2053pt
 >
 File: ./bilder/freigabeoption.PNG Graphic file (type png)
 <use ./bilder/freigabeoption.PNG>
-Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 384. on
- input line 384.
+Package luatex.def Info: ./bilder/freigabeoption.PNG  used on input line 386. on
+ input line 386.
 Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
- 384.
+ 386.
  [20
 
-<./bilder/freigabeoption.PNG>] [21
+<./bilder/freigabeoption.PNG>]
+[21
 
 ] [22
 
@@ -2562,6 +2563,8 @@ Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
 ] [26
 
 
+] [27
+
 ]
 \tf@nav=\write8
 
@@ -2572,24 +2575,17 @@ Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
 \tf@snm=\write10
 
 \openout10 = presentation.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
-
-(./build/presentation.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
+ (./build/presentation.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 
@@ -2597,17 +2593,16 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45077 strings out of 494472
+ 45088 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 7913 words of node memory still in use:
-   32 hlist, 6 vlist, 2 rule, 47 disc, 4 local_par, 6 math, 161 glue, 118 kern, 
-67 penalty, 610 glyph, 152 attribute, 86 glue_spec, 152 attribute_list, 3 write,
- 3 pdf_start_link, 3 pdf_end_link, 4 pdf_dest, 7 pdf_action, 44 pdf_colorstack n
-odes
-   avail lists: 1:5,2:726,3:335,4:169,5:346,6:2231,7:678,8:131,9:239,10:13,11:19
-2,12:1
- 47502 multiletter control sequences out of 65536+600000
- 85 fonts using 27354035 bytes
+ 1417 words of node memory still in use:
+   15 hlist, 6 vlist, 2 rule, 4 disc, 1 local_par, 26 glue, 8 kern, 11 penalty, 
+34 glyph, 35 attribute, 86 glue_spec, 35 attribute_list, 3 write, 6 pdf_action, 
+6 pdf_colorstack nodes
+   avail lists: 1:5,2:960,3:397,4:207,5:475,6:2894,7:839,8:138,9:256,10:13,11:24
+7,12:1
+ 47511 multiletter control sequences out of 65536+600000
+ 85 fonts using 27353983 bytes
  73i,13n,99p,1829b,3148s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraSans-Lig
 htItalic.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira
@@ -2616,10 +2611,10 @@ blic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts
 /opentype/public/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texm
 f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
 17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (26 pages, 5828283 bytes).
+Output written on presentation.pdf (27 pages, 5828931 bytes).
 
-PDF statistics: 330 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 131072)
+PDF statistics: 335 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
