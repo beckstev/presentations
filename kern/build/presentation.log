@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  2 FEB 2018 08:10
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  2 FEB 2018 10:22
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.453 seconds
+luaotfload | main : initialization completed in 0.124 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -2401,7 +2401,7 @@ Overfull \vbox (23.71353pt too high) detected at line 79
 ] [8
 
 ]
-<./bilder/vor_nachteile_direkter_einschluss.PNG, id=104, pagebox=cropbox, 1192.4
+<./bilder/vor_nachteile_direkter_einschluss.PNG, id=105, pagebox=cropbox, 1192.4
 55pt x 506.6428pt>
 File: ./bilder/vor_nachteile_direkter_einschluss.PNG Graphic file (type png)
 <use ./bilder/vor_nachteile_direkter_einschluss.PNG>
@@ -2419,7 +2419,7 @@ Overfull \hbox (163.27014pt too wide) in paragraph at lines 161--161
  [][][][][][][] []$[]$ 
  []
 
-<./bilder/stillegung_phasen.png, id=114, pagebox=cropbox, 815.045pt x 718.685pt>
+<./bilder/stillegung_phasen.png, id=115, pagebox=cropbox, 815.045pt x 718.685pt>
 
 File: ./bilder/stillegung_phasen.png Graphic file (type png)
 <use ./bilder/stillegung_phasen.png>
@@ -2437,7 +2437,7 @@ Overfull \vbox (6.38058pt too high) detected at line 161
 [10
 
 <./bilder/stillegung_phasen.png>]
-<./bilder/abbau_phase_1_spiegel.png, id=122, pagebox=cropbox, 770.88pt x 705.636
+<./bilder/abbau_phase_1_spiegel.png, id=123, pagebox=cropbox, 770.88pt x 705.636
 25pt>
 File: ./bilder/abbau_phase_1_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_1_spiegel.png>
@@ -2452,7 +2452,7 @@ Overfull \vbox (7.85318pt too high) detected at line 187
 [11
 
 <./bilder/abbau_phase_1_spiegel.png>]
-<./bilder/abbau_phase_2_spiegel.png, id=134, pagebox=cropbox, 782.925pt x 704.63
+<./bilder/abbau_phase_2_spiegel.png, id=135, pagebox=cropbox, 782.925pt x 704.63
 25pt>
 File: ./bilder/abbau_phase_2_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_2_spiegel.png>
@@ -2467,7 +2467,7 @@ Overfull \vbox (5.3622pt too high) detected at line 213
 [12
 
 <./bilder/abbau_phase_2_spiegel.png>]
-<./bilder/abbau_phase_3_spiegel.png, id=144, pagebox=cropbox, 780.9175pt x 707.6
+<./bilder/abbau_phase_3_spiegel.png, id=145, pagebox=cropbox, 780.9175pt x 707.6
 4375pt>
 File: ./bilder/abbau_phase_3_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_3_spiegel.png>
@@ -2482,7 +2482,7 @@ Overfull \vbox (6.36519pt too high) detected at line 239
 [13
 
 <./bilder/abbau_phase_3_spiegel.png>]
-<./bilder/abbau_phase_4_spiegel.png, id=154, pagebox=cropbox, 772.8875pt x 706.6
+<./bilder/abbau_phase_4_spiegel.png, id=155, pagebox=cropbox, 772.8875pt x 706.6
 4pt>
 File: ./bilder/abbau_phase_4_spiegel.png Graphic file (type png)
 <use ./bilder/abbau_phase_4_spiegel.png>
@@ -2497,7 +2497,7 @@ Overfull \vbox (7.68741pt too high) detected at line 265
 [14
 
 <./bilder/abbau_phase_4_spiegel.png>]
-<./bilder/zerlegung_bandsaege.PNG, id=165, pagebox=cropbox, 1088.56688pt x 681.2
+<./bilder/zerlegung_bandsaege.PNG, id=166, pagebox=cropbox, 1088.56688pt x 681.2
 9532pt>
 File: ./bilder/zerlegung_bandsaege.PNG Graphic file (type png)
 <use ./bilder/zerlegung_bandsaege.PNG>
@@ -2512,7 +2512,7 @@ Package luatex.def Info: Requested size: 181.64018pt x 113.67715pt on input line
 ] [17
 
 ]
-<./bilder/gebaeudedekontamination.png, id=187, pagebox=cropbox, 753.81625pt x 57
+<./bilder/gebaeudedekontamination.png, id=188, pagebox=cropbox, 753.81625pt x 57
 9.16376pt>
 File: ./bilder/gebaeudedekontamination.png Graphic file (type png)
 <use ./bilder/gebaeudedekontamination.png>
@@ -2523,7 +2523,7 @@ Package luatex.def Info: Requested size: 191.20082pt x 146.89386pt on input line
  [18
 
 <./bilder/gebaeudedekontamination.png>]
-<./bilder/radioakives_material.PNG, id=198, pagebox=cropbox, 1130.72438pt x 509.
+<./bilder/radioakives_material.PNG, id=199, pagebox=cropbox, 1130.72438pt x 509.
 65407pt>
 File: ./bilder/radioakives_material.PNG Graphic file (type png)
 <use ./bilder/radioakives_material.PNG>
@@ -2538,7 +2538,7 @@ Overfull \vbox (5.6057pt too high) detected at line 360
 [19
 
 <./bilder/radioakives_material.PNG>]
-<./bilder/freigabeoption.PNG, id=210, pagebox=cropbox, 1088.56688pt x 657.2053pt
+<./bilder/freigabeoption.PNG, id=211, pagebox=cropbox, 1088.56688pt x 657.2053pt
 >
 File: ./bilder/freigabeoption.PNG Graphic file (type png)
 <use ./bilder/freigabeoption.PNG>
@@ -2599,19 +2599,19 @@ Here is how much of LuaTeX's memory you used:
    15 hlist, 6 vlist, 2 rule, 4 disc, 1 local_par, 26 glue, 8 kern, 11 penalty, 
 34 glyph, 35 attribute, 86 glue_spec, 35 attribute_list, 3 write, 6 pdf_action, 
 6 pdf_colorstack nodes
-   avail lists: 1:5,2:960,3:397,4:207,5:476,6:2896,7:839,8:138,9:256,10:13,11:24
+   avail lists: 1:5,2:960,3:398,4:207,5:474,6:2894,7:840,8:138,9:256,10:13,11:24
 8,12:1
  47511 multiletter control sequences out of 65536+600000
- 85 fonts using 27354035 bytes
+ 85 fonts using 27353983 bytes
  73i,13n,99p,1829b,3148s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraMono-Reg
-ular.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/Fir
-aSans-LightItalic.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/pu
-blic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts
-/opentype/public/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texm
+ular.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/
+latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/pub
+lic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/
+opentype/public/fira/FiraSans-LightItalic.otf></home/sb/.local/texlive/2017/texm
 f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
 17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (27 pages, 5829257 bytes).
+Output written on presentation.pdf (27 pages, 5829164 bytes).
 
 PDF statistics: 335 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
