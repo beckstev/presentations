@@ -1,13 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'build/presentation.blg'
-[58] biber:303> INFO - === Fr Feb  2, 2018, 10:22:50
-[91] Biber.pm:359> INFO - Reading 'build/presentation.bcf'
-[249] Biber.pm:832> INFO - Using all citekeys in bib section 0
-[281] Biber.pm:3670> INFO - Processing section 0
-[304] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[305] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[315] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
-[318] Utils.pm:164> WARN - Entry rueckbau_kostenuebernahme does not parse correctly
-[392] Utils.pm:180> ERROR - BibTeX subsystem: /tmp/iXgGBf1hnq/lit.bib_26111.utf8, line 86, syntax error: found "}", expected ","
-[392] Biber.pm:109> INFO - WARNINGS: 1
-[392] Biber.pm:113> INFO - ERRORS: 1
+[36] biber:303> INFO - === Fr Feb  2, 2018, 20:51:43
+[55] Biber.pm:359> INFO - Reading 'build/presentation.bcf'
+[143] Biber.pm:832> INFO - Using all citekeys in bib section 0
+[160] Biber.pm:3670> INFO - Processing section 0
+[174] Biber.pm:3840> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[175] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[180] bibtex.pm:1292> INFO - Found BibTeX data source 'lit.bib'
+[242] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[242] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[242] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[242] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
+[254] bbl.pm:608> INFO - Writing 'build/presentation.bbl' with encoding 'UTF-8'
+[257] bbl.pm:712> INFO - Output to build/presentation.bbl

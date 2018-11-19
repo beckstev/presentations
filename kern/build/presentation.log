@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  2 FEB 2018 10:22
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.9.19)  2 FEB 2018 20:51
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.124 seconds
+luaotfload | main : initialization completed in 0.115 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex
 (/home/sb/.local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -2565,6 +2565,9 @@ Package luatex.def Info: Requested size: 191.20082pt x 115.43382pt on input line
 
 ] [27
 
+
+] [28
+
 ]
 \tf@nav=\write8
 
@@ -2585,7 +2588,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 
@@ -2593,16 +2602,16 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45088 strings out of 494472
+ 45086 strings out of 494472
  100000,1648299 words of node,token memory allocated
- 1417 words of node memory still in use:
+ 1427 words of node memory still in use:
    15 hlist, 6 vlist, 2 rule, 4 disc, 1 local_par, 26 glue, 8 kern, 11 penalty, 
-34 glyph, 35 attribute, 86 glue_spec, 35 attribute_list, 3 write, 6 pdf_action, 
+34 glyph, 36 attribute, 86 glue_spec, 36 attribute_list, 3 write, 7 pdf_action, 
 6 pdf_colorstack nodes
-   avail lists: 1:5,2:960,3:398,4:207,5:474,6:2894,7:840,8:138,9:256,10:13,11:24
-8,12:1
- 47511 multiletter control sequences out of 65536+600000
- 85 fonts using 27353983 bytes
+   avail lists: 1:5,2:1020,3:469,4:217,5:516,6:3279,7:930,8:217,9:256,10:13,11:2
+78,12:1
+ 47506 multiletter control sequences out of 65536+600000
+ 85 fonts using 27354139 bytes
  73i,13n,99p,1829b,3148s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/fira/FiraMono-Reg
 ular.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/
@@ -2611,10 +2620,10 @@ lic/lm-math/latinmodern-math.otf></home/sb/.local/texlive/2017/texmf-dist/fonts/
 opentype/public/fira/FiraSans-LightItalic.otf></home/sb/.local/texlive/2017/texm
 f-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/sb/.local/texlive/20
 17/texmf-dist/fonts/opentype/public/fira/FiraSans-Book.otf>
-Output written on presentation.pdf (27 pages, 5829164 bytes).
+Output written on presentation.pdf (28 pages, 5830934 bytes).
 
-PDF statistics: 335 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 131072)
+PDF statistics: 347 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
