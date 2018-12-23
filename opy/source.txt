@@ -34,3 +34,9 @@ Informationen über NPD (19.11.18)
 ###################################
 
 http://ohjec.com/el/pdf/el-2-1.pdf
+
+
+###################################
+Bilder Pixel OLed (23.12.18)
+###################################
+http://www2.optics.rochester.edu/workgroups/cml/opt307/spr16/chaojie/Index.html
